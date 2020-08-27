@@ -75,6 +75,7 @@ always @(posedge ref_clock or negedge reset_n) begin
     end
 end
 
+// The negative edge of the clock is used to generated the 50% duty cycle 
 
 always @(negedge ref_clock or negedge reset_n) begin
     if(!reset_n) begin
