@@ -1,2 +1,5 @@
 CDC
-Clock geneated from various PLLS . What kind of synchronisation is needed?
+--- Same Clock generated from various PLL1 and PLL2 . What kind of synchronisation is needed?
+-------- How can this be handled without synchronisation
+STA
+---- Max Critical path is  x seconds. Use that for a design with greater than or lesser than x seconds
