@@ -1,5 +1,10 @@
 CDC
 --- Same Clock generated from various PLL1 and PLL2 . What kind of synchronisation is needed?
 -------- How can this be handled without synchronisation
+--- Is synchroniser needed between two subsystems of same clock?
+-------- if needed what is the FIFO depth?
+--- Variable rate of reads and writes. FIFO Depth calculation
 STA
----- Max Critical path is  x seconds. Use that for a design with greater than or lesser than x seconds
+--- Max Critical path is  x seconds. Use that for a design with greater than or lesser than x seconds
+General
+--- Sequence detector design (Overlapping and Non Overlapping)
