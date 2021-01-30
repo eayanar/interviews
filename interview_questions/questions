@@ -11,6 +11,5 @@ CDC
 STA
 --- Max Critical path is  x seconds. Use that for a design with greater than or lesser than x seconds
 Others
-
 --- How will you do coefficient multiplicaltions in RTL. Eg: x*10
 
