@@ -42,4 +42,20 @@ placement of Level Shifter.
 How much PDs are there in your Design?
 how PDs are defined on what basis?
 
+power off on sequence:
+
+power up sequence. : Have to check not known. 
+
+others:
+overlapping and Non overlapping sequence. 
+input sequence: 10011 
+input sequence : ab*aab*a where * is repetition
+
+Pule synchronization from fast to slow, slow to fast
+MultiBit synchronization to fast and slow clock 
+-- multibit changes ever clock 
+-- multibit changes every N clock. 
+
+what is MCP?
+
 
