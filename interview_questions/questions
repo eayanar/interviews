@@ -20,7 +20,26 @@ RESET synchroniser design and the Metastability problems
 Design FIFO for
 
  input rate of 80 per 100 clock 
- read rate of 8/10 clock ... Derive the maximum FIFO depth needed
+ read rate of 8/10 clock ... Derive the maximum FIFO depth needed. 
+  
+
 
 A block get two clock CLOCK_B and CLOCK_C which are derived from input CLOCK_A. CLOCK_B and CLOCK_C are divide by 2 clocks from CLOCK_A. CLOCK_B has more logic associated with it.
 How to allign phase shifts between CLOCK_B and CLOCK_C
+
+
+Power :
+Differnce between Power gating and Clock gating. 
+---- Ans : power sequence which is disadvantage, takes time. 
+
+Need for Isolation Cell:
+What is clamp value for Isolation Cell: How to decide?
+Where can be Isolation Cell placed— source or destination?
+
+Need for Level Shifter 
+placement of Level Shifter. 
+
+How much PDs are there in your Design?
+how PDs are defined on what basis?
+
+
